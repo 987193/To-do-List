@@ -13,13 +13,44 @@ body{
 }
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 100vh;
     align-items: center;
 }
-/* .todoList{
+.input-container{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+.input-container input{
+    border: none;
+    outline: none;
+    margin-block: 12px;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.input-container input[type="text"]{
+    width: 70%;
+}
+.input-container input[type="button"]{
+    background-color: green;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+.input-container input[type="button"]:hover{
+    background-color: #60b160;
+}
+ul{
+    width: 100%;
+    max-width: 450;
     display: flex;
     justify-content: center;
-    height: 100vh;
-    align-items: center;
-} */
+    flex-direction: column;
+    text-align: center;
+
+}
