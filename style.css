@@ -47,10 +47,13 @@ body{
 }
 ul{
     width: 100%;
-    max-width: 450;
+    max-width: 450px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
-
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    
 }
