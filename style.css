@@ -62,6 +62,10 @@ ul li{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: backgroung-color 0.5s;
+}
+ul li:hover{
+    background-color: #cbcaca;
 }
 ul li p{
     flex-grow: 1;
@@ -75,6 +79,12 @@ ul li p{
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    padding: 8px;
+    background:none;
 }
-
-
+.DeleteBtn{
+    color: #ff0000;
+}
+.EditBtn{
+    color: #008000;
+}
